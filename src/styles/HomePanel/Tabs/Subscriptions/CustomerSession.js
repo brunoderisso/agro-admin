@@ -1,0 +1,41 @@
+import { makeStyles } from "tss-react/mui"
+
+const useStyles = makeStyles()((theme) => ({
+  container: {
+    gap: 8
+  },
+  title: {
+    fontSize: 12,
+    lineHeight: "32px",
+    letterSpacing: 1,
+    color: theme.colors.onPrimaryContainer
+  },
+  header: {
+    gap: 8,
+    alignItems: "center"
+  },
+  text: {
+    fontSize: 12,
+    lineHeight: "20px",
+    letterSpacing: 0.4,
+    color: theme.colors.outline
+  },
+  primaryBtn: {
+    marginLeft: "auto",
+    height: 40,
+    "&:hover": {
+      backgroundColor: theme.colors.primary[95],
+    },
+  },
+  addTextBtn: {
+    color: theme.colors.primary[40],
+    textAlign: "center",
+    fontSize: "14px",
+    fontWeight: 500,
+    lineHeight: "24px",
+    letterSpacing: "0.4px",
+    marginLeft: "8px"
+  },
+}))
+
+export default useStyles

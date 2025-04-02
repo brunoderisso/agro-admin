@@ -1,0 +1,54 @@
+{
+  "translation": {
+    "menuBar": {
+      "title": "Administrative panel",
+      "profileEdit": "Edit",
+      "logout": "Logout"
+    },
+    "login": {
+      "title": "Welcome",
+      "label-btn": "Sign in",
+      "login-btn": "Sign in with {{social}}",
+      "label-main": "Not have an account yet? ",
+      "label-href": "Register"
+    },
+    "homePanel": {
+      "tab1": "Customers",
+      "tab2": "Plans",
+      "tab3": "Coupons",
+      "customers": {
+        "tabTitle": "Registered Customers",
+        "tableHeader1": "NAME",
+        "tableHeader2": "E-MAIL",
+        "tableHeader3": "PLANS",
+        "tableHeader4": "PRICE",
+        "tableHeader5": "DUE DATE",
+        "tableHeader6": "STATUS",
+        "filters": {
+          "placeholderInput": "Enter the customer's name or email",
+          "statusLabel1": "Active",
+          "statusLabel2": "Pending",
+          "statusLabel3": "Suspended account",
+          "dueLabel1": "This week",
+          "dueLabel2": "Tomorrow",
+          "dueLabel3": "Today",
+          "dueLabel4": "Expired",
+          "planSubtitle1": "PLAN",
+          "planSubtitle2": "COLLECTION",
+          "planLabel1": "Tracking",
+          "planLabel2": "Corn",
+          "planLabel3": "Soy",
+          "planLabel4": "Monthly",
+          "planLabel5": "Yearly",
+          "planLabel6": "Separate"
+        }
+      },
+      "plans": {
+        "tabTitle": "Subscription Plans"
+      },
+      "coupons": {
+        "tabTitle": "Discount coupons"
+      }
+    }
+  }
+}

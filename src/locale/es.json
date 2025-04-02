@@ -1,0 +1,54 @@
+{
+  "translation": {
+    "menuBar": {
+      "title": "panel administrativo",
+      "profileEdit": "Para editar",
+      "logout": "Salir"
+    },
+    "login": {
+      "title": "Bienvenido",
+      "label-btn": "Inicia",
+      "login-btn": "Inicia con {{social}}",
+      "label-main": "¿Aún no tienes una cuenta? ",
+      "label-href": "Registro"
+    },
+    "homePanel": {
+      "tab1": "Clientes",
+      "tab2": "Planes",
+      "tab3": "Cupones",
+      "customers": {
+        "tabTitle": "Clientes Registrados",
+        "tableHeader1": "NOMBRE",
+        "tableHeader2": "E-MAIL",
+        "tableHeader3": "PLANES",
+        "tableHeader4": "VALOR",
+        "tableHeader5": "VENCIMIENTO",
+        "tableHeader6": "STATUS",
+        "filters": {
+          "placeholderInput": "Introduzca el nombre o correo electrónico del cliente",
+          "statusLabel1": "Activo",
+          "statusLabel2": "Pendiente",
+          "statusLabel3": "Cuenta suspendida",
+          "dueLabel1": "Esa semana",
+          "dueLabel2": "Mañana",
+          "dueLabel3": "Hoy",
+          "dueLabel4": "Vencida",
+          "planSubtitle1": "DEPARTAMENTO",
+          "planSubtitle2": "FACTURACIÓN",
+          "planLabel1": "Seguimiento",
+          "planLabel2": "Maíz",
+          "planLabel3": "Soja",
+          "planLabel4": "Mensual",
+          "planLabel5": "Anual",
+          "planLabel6": "Única"
+        }
+      },
+      "plans": {
+        "tabTitle": "Planes de suscripción"
+      },
+      "coupons": {
+        "tabTitle": "Cupones de descuento"
+      }
+    }
+  }
+}

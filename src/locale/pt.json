@@ -1,0 +1,246 @@
+{
+  "translation": {
+    "menuBar": {
+      "title": "Painel administrativo",
+      "profileEdit": "Editar Perfil",
+      "logout": "Sair"
+    },
+    "login": {
+      "title": "Bem vindo",
+      "label-btn": "Entrar",
+      "login-btn": "Entrar com {{social}}",
+      "label-main": "Ainda não tem uma conta? ",
+      "label-href": "Registre-se",
+      "forgotPassword": "Esqueceu sua senha?"
+    },
+    "homePanel": {
+      "tab1": "Clientes",
+      "tab2": "Planos",
+      "tab3": "Cupons",
+      "tab4": "Assinaturas",
+      "customers": {
+        "tabTitle": "Clientes Cadastrados",
+        "tableHeader1": "NOME",
+        "tableHeader2": "E-MAIL",
+        "menuTitle": "Gerenciamento de conta",
+        "filters": {
+          "placeholderInput": "Digite o nome do cliente",
+          "inputLabel": "cliente"
+        },
+        "menuOption": {
+          "text1": "Ver contato",
+          "text2": "Histórico de cobranças",
+          "text3": "Suspender usuário"
+        },
+        "modal": {
+          "mainTextSuspend": "Tem certeza que deseja continuar? O usuário ficará com a conta suspensa.",
+          "secondaryTextSuspend": "Será possível entrar na plataforma mas as ferramentas estarão indisponíveis até que seja realizado o pagamento de uma assinatura.",
+          "labelPhoneContact": "Telefone:",
+          "button1Contact": "Editar usuário",
+          "button2Contact": "Histórico de cobranças",
+          "tooltip1": "Tornar visível",
+          "tooltip2": "Ocultar",
+          "tooltip3": "Copiar"
+        },
+        "customerEdit": {
+          "customerData": {
+            "tabTitle": "Dados de Faturamento"
+          },
+          "customerSubscriptions": {
+            "tabTitle": "Assinaturas Contratadas"
+          }
+        }
+      },
+      "plans": {
+        "tabTitle": "Planos de assinatura",
+        "addLabel": "Adicionar plano",
+        "tableHeader1": "Nome",
+        "tableHeader2": "Valor",
+        "tableHeader3": "Intervalo",
+        "tableHeader4": "Pagamento",
+        "tableHeader5": "Status",
+        "tableRowActive": "Ativo",
+        "tableRowInactive": "Inativo",
+        "menuOption": {
+          "text1": "Editar",
+          "text2": "Desativar",
+          "text3": "Arquivar"
+        },
+        "filters": {
+          "placeholderInput": "Digite o nome do plano",
+          "inputLabel": "plano",
+          "valueLabel": "valor",
+          "intervalLabel": "intervalo",
+          "paymentLabel": "pagamento",
+          "valueInputLabel1": "Valor Mínimo",
+          "valueInputLabel2": "Valor Máximo",
+          "intervalLabel1": "Mensal",
+          "intervalLabel2": "Semanal",
+          "paymentLabel1": "Cartão de Crédito",
+          "paymentLabel2": "Pix",
+          "paymentLabel3": "Boleto",
+          "paymentLabel4": "Pagável",
+          "statusLabel1": "Ativo",
+          "statusLabel2": "Inativo",
+          "checkbox": {
+            "label1": "mensal",
+            "label2": "semanal",
+            "label4": "cartão de crédito",
+            "label5": "pix",
+            "label6": "boleto",
+            "label7": "ativo",
+            "label8": "inativo"
+          }
+        },
+        "modal": {
+          "labelRemove": "Arquivar plano",
+          "mainTextSuspend": "Tem certeza que deseja continuar? Essa ação não pode ser desfeita.",
+          "secondaryTextSuspend": "O plano arquivado não ficará mais disponível para novas assinaturas, mas continuará válido para as assinaturas atuais que contém esse plano."
+        },
+        "form": {
+          "titleNew": "Criar plano",
+          "titleEdit": "Editar plano",
+          "title1": "Informações principais",
+          "title2": "Disponibilidade",
+          "title3": "Funcionalidades",
+          "title4": "Intervalo de cobrança",
+          "title5": "Formas de pagamento",
+          "title6": "Cupons de desconto",
+          "title7": "Itens adicionais",
+          "title8": "Resumo",
+          "inputName": "Nome do plano",
+          "inputPrice": "Valor",
+          "inputDescription": "Descrição",
+          "inputNotes": "Notas (Opcional)",
+          "helperText": "Tamanho recomendado de até {{number}} caracteres",
+          "placeholderName": "Defina um nome para o plano",
+          "placeholderDescription": "Insira uma descrição para o plano",
+          "placeholderNotes": "Detalhes adicionais relevantes para os clientes, como duração do contrato, informações sobre preços promocionais ou custo de instalação",
+          "checkbox1": "Ativo",
+          "checkbox2": "Disponibilidade online",
+          "selectFeatures": "Selecionar funcionalidades",
+          "emptyCoupon": "Nenhum cupom selecionado",
+          "billingInterval1": "Semanal",
+          "billingInterval2": "Mensal",
+          "labelNewCoupon": "Criar cupom",
+          "labelDeleteCoupon": "Remover cupom",
+          "labelListCoupons": "Adicionar Cupom Existente",
+          "inputNameCoupon": "Nome",
+          "inputCodeCoupon": "Código",
+          "inputDiscountCoupon": "Desconto",
+          "inputAmountCoupon": "Quantidade",
+          "inputEndDateCoupon": "Data de término",
+          "placeholderNameCoupon": "Nome do cupom (Uso interno apenas)",
+          "placeholderCodeCoupon": "Código que os clientes irão inserir no carrinho de compras",
+          "placeholderAmountCoupon": "Cupons disponíveis",
+          "placeholderDate": "DD/MM/AAAA",
+          "resume": {
+            "planValue": "Valor do Plano",
+            "features": "Funcionalidades",
+            "additional": "Adicionais",
+            "total": "Total"
+          }
+        }
+      },
+      "coupons": {
+        "tabTitle": "Cupons de desconto",
+        "tableHeader1": "Código",
+        "tableHeader2": "Desconto",
+        "tableHeader3": "Início",
+        "tableHeader4": "Término",
+        "tableHeader5": "Status",
+        "modal": {
+          "mainText": "O cupom será removido e não poderá mais ser utilizado. Tem certeza que deseja continuar?",
+          "labelSelect": "Plano"
+        },
+        "filters": {
+          "button1": "Desconto",
+          "button2": "Validade",
+          "button3": "Status",
+          "placeholderInput": "Pesquise pelo código do cupom",
+          "inputLabel": "cupom",
+          "discountLabel": "desconto",
+          "startValidityLabel": "início",
+          "endValidityLabel": "término",
+          "checkbox": {
+            "label1": "Hoje",
+            "label2": "Amanhã",
+            "label3": "Essa semana",
+            "label4": "Expirados",
+            "label6": "Ativo",
+            "label7": "Inativo"
+          },
+          "startInputLabel": "Início",
+          "endInputLabel": "Término",
+          "validityTitle": "vencimento"
+        },
+        "menuOption": {
+          "text1": "Editar",
+          "text2": "Ativar",
+          "text3": "Desativar",
+          "text4": "Remover"
+        },
+        "addLabel": "Adicionar cupom"
+      },
+      "subscriptions": {
+        "newSubscription": "Nova assinatura",
+        "customer": "Cliente",
+        "newCustomer": "Novo cliente",
+        "searchFieldCustomer": "Busque pelo nome ou e-mail",
+        "searchFieldProperty": "Busque pelo nome da propriedade",
+        "searchFieldPlan": "Busque pelo nome do plano",
+        "searchFieldCoupon": "Busque pelo nome ou código do cupom",
+        "property": "Propriedade",
+        "newProperty": "Nova propriedade",
+        "coupon": "Cupom",
+        "cpfOrCnpj": "CPF/CNPJ",
+        "drawerFooter": "Seus dados serão processados de acordo com nossa",
+        "privacyPolicy": "Política de Privacidade",
+        "propertyName": "Nome da Propriedade",
+        "propertySize": "Tamanho da Propriedade (ha.)",
+        "productiveArea": "Área Produtiva (ha.)",
+        "propertyDrawerDescription": "O valor final do plano selecionado pode variar de acordo com o tamanho da propriedade e sua área produtiva.",
+        "importProperty": "Importar propriedade",
+        "dragAndDropOrClickToUpload": "Arraste e solte ou clique no botão para subir um arquivo (Suporta as extensões: *.kmz, *.kml)",
+        "noFileSelected": "Nenhum Arquivo Selecionado!"
+      }
+    },
+    "tablePagination": {
+      "mainLabel": "Itens por página:",
+      "secondaryLabel": "de",
+      "tertiaryLabel": "maior que"
+    },
+    "general": {
+      "filterClean": "LIMPAR",
+      "tableEmptyState": "Nenhum resultado encontrado",
+      "modalCancelBtn": "Cancelar",
+      "modalRemoveBtn": "Remover",
+      "modalSaveBtn": "Salvar",
+      "createBtn": "Criar",
+      "coin": "R$",
+      "emptyData": "Não há dados selecionados",
+      "errorMessage1": "Necessário preencher!",
+      "errorMessage2": "Selecione pelo menos um!",
+      "errorMessage3": "Selecione um!",
+      "errorMessage4": "Valor incorreto!",
+      "errorMessage5": "Selecione pelo menos dois!",
+      "errorMessage6": "Necessário preencher o campo inteiro",
+      "optional": "(Opcional)",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "cep": "CEP",
+      "address": "Endereço",
+      "number": "Número",
+      "complement": "Complemento",
+      "district": "Bairro",
+      "city": "Cidade",
+      "state": "Estado",
+      "country": "País",
+      "select": "Selecione",
+      "import": "Importar",
+      "next": "Próximo",
+      "close": "Fechar",
+      "toSelect": "Selecionar"
+    }
+  }
+}
